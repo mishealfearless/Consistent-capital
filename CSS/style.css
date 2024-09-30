@@ -81,6 +81,23 @@ a{
     width: 40%;
 }
 
+/**  style for Contact us page 👇**/
+
+.c-main-container{
+    margin: 4rem 10rem 6rem 10rem;
+}
+
+.top-contactUs{
+    margin-bottom: 3rem;
+    color: rgb(25, 25, 90);
+}
+
+.loca{
+    text-decoration: none;
+    color: black;
+}
+
+
 /** media query for mobile phone**/
 @media only screen and (max-width: 600px) {
     .main-container{
