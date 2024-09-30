@@ -87,13 +87,13 @@ a{
         margin: 0 20px 0 20px;
     }
     
+    .first-h1{
+        font-size: 1.6rem !important;
+    }
     .a-main-container{
         margin: 4rem 2rem 6rem 2rem;
     }
 
-    .first-h1{
-        font-size: 1.6rem !important;
-    }
 
     .v-statement{
         width: 100%;
