@@ -98,6 +98,130 @@ a{
 }
 
 
+/* investment page */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.invest-h1-2 {
+    text-align: center;
+    color: #333;
+    margin: 40px 0 20px; /* Combined margins */
+}
+
+table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(7, 7, 87, 0.893);
+    border-radius: 30px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #000;
+}
+
+th {
+    background-color: #007bff; /* Blue header */
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tr:hover {
+    background-color: #e7f3ff; /* Light blue hover */
+}
+
+/* Apply Now Button Styling */
+.apply-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7f00; /* Orange color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: auto /* Make button full-width */
+    max-width: 200px; /* Set a max-width for the button */
+    margin: 10px auto; /* Center the button */
+}
+
+.apply-btn:hover {
+    background-color: #ff9f40; /* Lighter orange on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Queries for Responsiveness for investment*/
+@media (max-width: 600px) {
+    th {
+        display: none; /* Hide table headers on mobile view */
+    }
+
+    td {
+        display: block; /* Stack table cells */
+        width: 100%; /* Full width */
+        text-align: center; /* Center text */
+        padding: 10px; /* Adjust padding */
+        border-bottom: 1px solid #ddd; /* Optional: add bottom border for separation */
+    }
+
+    tr {
+        margin-bottom: 10px; /* Space between rows */
+        border: 1px solid #ddd; /* Border around each row */
+        border-radius: 5px; /* Rounded corners for rows */
+    }
+
+    .apply-btn {
+        margin: 10px auto; /* Center the button */
+    }
+}
+
+/* Why Invest Section */
+.why-invest {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid #007bff; /* Blue border */
+}
+
+.why-invest ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-invest ul li {
+    padding: 10px 0;
+    color: #333;
+    font-size: 1.1em;
+}
+/* ends */
+
+
 /** media query for mobile phone**/
 @media only screen and (max-width: 600px) {
     .main-container{
